@@ -32,6 +32,8 @@ ALLOWED_HOSTS = [
         "testserver",
     ]
 
+# Идентификатор текущего сайта
+SITE_ID = 1
 
 # Application definition
 
@@ -39,6 +41,8 @@ INSTALLED_APPS = [
     'posts',
     'groups',
     'users',
+    'django.contrib.sites',
+    'django.contrib.flatpages',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
